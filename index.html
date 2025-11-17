@@ -1232,6 +1232,7 @@
                     try {
                         const response = await fetch('https://dibyaserver.in/email/contact-handler.php', {
                             method: 'POST',
+                            mode: 'cors',
                             body: formData
                         });
 
